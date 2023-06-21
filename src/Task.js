@@ -1,4 +1,4 @@
-const url = "YOURDEPLOYURL" // TODO: replace this
+const url = "https://studentportal-8041e.web.app/" // TODO: replace this
 const studentName = "Fauzan Pradana" // TODO: replace this
 const studentId = "FE4575681" // TODO: replace this
 
