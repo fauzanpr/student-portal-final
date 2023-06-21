@@ -1,12 +1,12 @@
 // TODO: answer here
-import { Link } from "react-router-dom";
-import { Button, Flex, HStack, Heading, Spacer } from "@chakra-ui/react";
+import { Link as ReachLink } from "react-router-dom";
+import { Button, Flex, HStack, Heading, Spacer, Link } from "@chakra-ui/react";
 
 const NavBar = () => {
   return (
     // TODO: answer here
     <Flex as="header" p="2rem" gap="2rem" mb="3rem">
-      <Link to={"/"} data-testid="home-page">
+      <Link as={ReachLink} to={"/"} data-testid="home-page">
         <Button
           variant="link"
           color="blue.600"
@@ -21,12 +21,12 @@ const NavBar = () => {
       </Link>
       <Spacer />
       <HStack spacing="1rem">
-        <Link to={"/student"} data-testid="student-page">
+        <Link as={ReachLink} to={"/student"} data-testid="student-page">
           <Button variant="link" color="black" fontWeight="normal">
             All Student
           </Button>
         </Link>
-        <Link to={"/add"} data-testid="add-page">
+        <Link as={ReachLink} to={"/add"} data-testid="add-page">
           <Button variant="link" color="black" fontWeight="normal">
             Add Student
           </Button>

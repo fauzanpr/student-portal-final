@@ -198,17 +198,6 @@
       "programStudy": "Matematika"
     },
     {
-      "id": 19,
-      "fullname": "Arief Kurniawan",
-      "profilePicture": "https://randomuser.me/api/portraits/men/19.jpg",
-      "address": "Yogyakarta, Indonesia",
-      "birthDate": "1994-12-03",
-      "gender": "Male",
-      "phoneNumber": "+6281616161616",
-      "faculty": "Fakultas Ekonomi",
-      "programStudy": "Manajemen"
-    },
-    {
       "id": 20,
       "fullname": "Rika Setyawati",
       "profilePicture": "https://randomuser.me/api/portraits/women/20.jpg",
