@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <>
       <Box className="footer">
-        <Flex justifyContent="center" gap="3rem" p="1rem" bg="blue.600" mt="10%">
-          <p className="studentName" color="white" fontWeight="bold">Fauzan Pradana</p>
-          <p className="studentId" color="white" fontWeight="bold">FE4575681</p>
+        <Flex justifyContent="center" gap="2rem" p="1rem">
+          <Text className="studentName">Fauzan Pradana</Text>
+          <Text className="studentId">FE4575681</Text>
         </Flex>
       </Box>
     </>
