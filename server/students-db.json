@@ -265,17 +265,6 @@
       "programStudy": "Akuntansi"
     },
     {
-      "id": 25,
-      "fullname": "Eko Setiawan",
-      "profilePicture": "https://randomuser.me/api/portraits/men/25.jpg",
-      "address": "Medan, Indonesia",
-      "birthDate": "1997-11-27",
-      "gender": "Male",
-      "phoneNumber": "+6282222222222",
-      "faculty": "Fakultas Ilmu Sosial dan Politik",
-      "programStudy": "Administrasi Bisnis"
-    },
-    {
       "id": 26,
       "fullname": "Rini Hartati",
       "profilePicture": "https://randomuser.me/api/portraits/women/26.jpg",
@@ -307,16 +296,6 @@
       "phoneNumber": "+6282525252525",
       "faculty": "Fakultas Teknologi Informasi dan Sains",
       "programStudy": "Matematika"
-    },
-    {
-      "fullname": "Fauzan Pradana",
-      "address": "Malang",
-      "phoneNumber": "085236876083",
-      "birthDate": "2002-06-14",
-      "gender": "Male",
-      "programStudy": "Informatika",
-      "faculty": "Fakultas Teknologi Informasi dan Sains",
-      "id": 29
     }
   ]
 }
