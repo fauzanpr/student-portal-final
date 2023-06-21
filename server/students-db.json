@@ -296,6 +296,17 @@
       "phoneNumber": "+6282525252525",
       "faculty": "Fakultas Teknologi Informasi dan Sains",
       "programStudy": "Matematika"
+    },
+    {
+      "fullname": "Fauzan Pradana",
+      "profilePicture": "",
+      "address": "Trenggalek",
+      "birthDate": "2002-06-14",
+      "gender": "Male",
+      "faculty": "Fakultas Teknologi Informasi dan Sains",
+      "phoneNumber": "085236876083",
+      "programStudy": "Informatika",
+      "id": 29
     }
   ]
 }
