@@ -87,7 +87,7 @@ const Student = () => {
           <TableCaption fontSize=".75rem" textDecoration="underline">
             Student Data
           </TableCaption>
-          <Thead position="sticky" top={0} zIndex="docked" bg="blue.400">
+          <Thead position="sticky" top={0} zIndex="docked" bg="blue.600">
             <Tr>
               <Th color="white">No</Th>
               <Th color="white">Full Name</Th>
