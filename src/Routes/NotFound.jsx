@@ -1,5 +1,6 @@
 // TODO: answer here
 import { useNavigate } from "react-router-dom";
+import { Button, Box, Text } from "@chakra-ui/react";
 
 const NotFound = () => {
   const navigate = useNavigate();
@@ -9,11 +10,12 @@ const NotFound = () => {
   };
 
   return (
-    <>
-      {/* TODO: answer here */}
-      <p>404 | Not Found</p>
-      <button onClick={backBtnHandler}>Take Me Back</button>
-    </>
+    <Box margin="auto" width="fit-content">
+      <Text mb="1rem" fontSize="2rem">
+        404 | Not Found
+      </Text>
+      <Button onClick={backBtnHandler}>Take Me Back</Button>
+    </Box>
   );
 };
 

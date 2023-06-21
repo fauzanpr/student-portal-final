@@ -6,16 +6,21 @@ const NavBar = () => {
   return (
     // TODO: answer here
     <Flex as="header" p="2rem" gap="2rem" mb="3rem">
-      <Heading as="h1" fontSize="1.5rem" color="blue.600">
-        Student Portal
-      </Heading>
+      <Link to={"/"} data-testid="home-page">
+        <Button
+          variant="link"
+          color="blue.600"
+          fontWeight="bold"
+          fontSize="1.7rem"
+          _hover={{
+            textDecoration: "none",
+          }}
+        >
+          Student Portal
+        </Button>
+      </Link>
       <Spacer />
       <HStack spacing="1rem">
-        <Link to={"/"} data-testid="home-page">
-          <Button variant="link" color="black" fontWeight="normal">
-            Student Portal
-          </Button>
-        </Link>
         <Link to={"/student"} data-testid="student-page">
           <Button variant="link" color="black" fontWeight="normal">
             All Student
