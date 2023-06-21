@@ -1,15 +1,14 @@
 {
   "student": [
     {
-      "id": 1,
-      "fullname": "Djarot Purnomo",
-      "profilePicture": "https://randomuser.me/api/portraits/men/2.jpg",
+      "fullname": "Djarot Purwanto",
       "address": "Bogor, Indonesia",
+      "phoneNumber": "+6280987654321",
       "birthDate": "1995-03-15",
       "gender": "Male",
-      "phoneNumber": "+6280987654321",
+      "programStudy": "Administrasi Bisnis",
       "faculty": "Fakultas Ilmu Sosial dan Politik",
-      "programStudy": "Administrasi Bisnis"
+      "id": 1
     },
     {
       "id": 2,
