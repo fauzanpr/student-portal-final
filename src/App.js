@@ -6,6 +6,7 @@ import AddStudent from "./Routes/AddStudent";
 import Student from "./Routes/Student";
 import EditStudent from "./Routes/EditStudent";
 import NotFound from "./Routes/NotFound";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </> // TODO: replace this
   );
 };
