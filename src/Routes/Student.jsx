@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import NavBar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import {
   Container,
@@ -9,13 +10,13 @@ import {
   Table,
   Thead,
   Tbody,
-  Tfoot,
   Tr,
   Th,
   Td,
   TableCaption,
   Button,
   TableContainer,
+  Box,
 } from "@chakra-ui/react";
 
 const Student = () => {
@@ -150,7 +151,7 @@ const Student = () => {
   };
 
   return (
-    <>
+    <Box width="100%" minH="100vh" position="relative" pb="10rem">
       {/* TODO: answer here */}
       <NavBar />
       <Container maxW="80%">
@@ -163,7 +164,8 @@ const Student = () => {
           </>
         )}
       </Container>
-    </>
+        <Footer />
+    </Box>
   );
 };
 

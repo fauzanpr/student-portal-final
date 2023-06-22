@@ -12,6 +12,7 @@ import {
   Input,
   Select,
 } from "@chakra-ui/react";
+import Footer from "../components/Footer";
 
 const EditStudent = () => {
   // TODO: answer here

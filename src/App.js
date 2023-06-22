@@ -20,7 +20,6 @@ const App = () => {
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
     </> // TODO: replace this
   );
 };

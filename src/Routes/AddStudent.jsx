@@ -11,6 +11,7 @@ import {
   Flex,
   Heading,
 } from "@chakra-ui/react";
+import Footer from "../components/Footer";
 
 const AddStudent = () => {
   // TODO: answer here
