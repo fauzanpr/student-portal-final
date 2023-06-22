@@ -1,6 +1,7 @@
 // TODO: answer here
 import { useNavigate } from "react-router-dom";
-import { Button, Box, Text } from "@chakra-ui/react";
+import { Button, Box, Image, Flex } from "@chakra-ui/react";
+import notFound from "../assets/not-found.jpeg";
 
 const NotFound = () => {
   const navigate = useNavigate();
@@ -10,12 +11,30 @@ const NotFound = () => {
   };
 
   return (
-    <Box margin="auto" width="fit-content">
-      <Text mb="1rem" fontSize="2rem">
-        404 | Not Found
-      </Text>
-      <Button onClick={backBtnHandler}>Take Me Back</Button>
-    </Box>
+    <Flex
+      margin="auto"
+      width="fit-content"
+      direction="column"
+      gap="3rem"
+      justifyContent="center"
+      alignItems="center"
+      height="100vh"
+    >
+      <Image src={notFound} />
+      <Button
+        onClick={backBtnHandler}
+        bg="white"
+        color="black"
+        border="2px solid black"
+        transition=".5s"
+        _hover={{
+          bg: 'blue.600',
+          color: 'white',
+        }}
+      >
+        Take Me Back
+      </Button>
+    </Flex>
   );
 };
 
