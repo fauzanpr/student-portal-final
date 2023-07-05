@@ -21,6 +21,7 @@ const NotFound = () => {
       height="100vh"
     >
       <Image src={notFound} />
+      <p>Not Found</p>
       <Button
         onClick={backBtnHandler}
         bg="white"

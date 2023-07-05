@@ -6,7 +6,6 @@ import AddStudent from "./Routes/AddStudent";
 import Student from "./Routes/Student";
 import EditStudent from "./Routes/EditStudent";
 import NotFound from "./Routes/NotFound";
-import Footer from "./components/Footer";
 
 const App = () => {
   return (

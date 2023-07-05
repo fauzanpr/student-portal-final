@@ -205,6 +205,7 @@ const EditStudent = () => {
           </form>
         </Container>
       )}
+      <Footer absolute={false} />
     </>
   );
 };

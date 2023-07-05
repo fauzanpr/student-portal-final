@@ -194,6 +194,7 @@ const AddStudent = () => {
         /> */}
         </form>
       </Container>
+      <Footer absolute={false} />
     </>
   );
 };
